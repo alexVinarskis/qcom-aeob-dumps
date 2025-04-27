@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.ov05c10.bin",
+    "com.qti.tuned.ov05c10.lvi.bin",
+    0x0000000000010020,
+    0x0000000043050000,
+    0x0000000000000000,
+},
