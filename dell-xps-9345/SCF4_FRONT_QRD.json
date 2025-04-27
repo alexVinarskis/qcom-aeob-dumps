@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.ov02c10.bin",
+    "com.qti.tuned.lvi_ov02c10.fhd.bin",
+    0x000000000015006C,
+    0x000000005602300A,
+    0x0000000000000000,
+},
