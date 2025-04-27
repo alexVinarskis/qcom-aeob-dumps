@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.hm1092.bin",
+    "com.qti.tuned.hm1092_pw_cg.bin",
+    0x0000000000050048,
+    0x0000000010910000,
+    0x0000000000000000,
+},
