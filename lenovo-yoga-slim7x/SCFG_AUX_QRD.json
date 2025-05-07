@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.chicony_vd55g0.bin",
+    "com.qti.tuned.chicony_vd55g0.bin",
+    0x0000000000150020,
+    0x0000000030470000,
+    0x0000000000000000,
+},
