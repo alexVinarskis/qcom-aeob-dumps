@@ -1,0 +1,1841 @@
+Package ()
+{
+    "DEVICE",
+    "\_SB.MPCS",
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000000,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000030,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi0phytimer_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000001,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy0_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000000,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_D",
+                    0x0000000000000001,
+                    0x00000000000D6D80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO4_D",
+                    0x0000000000000001,
+                    0x0000000000124F80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000040,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000040,
+                },
+            },
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO4_D",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_D",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy0_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi0phytimer_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000000,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy0_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy0_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy0_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy0_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy0_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi0phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi0phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi0phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi0phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi0phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+    },
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000001,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000030,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi1phytimer_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000001,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy1_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000000,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_D",
+                    0x0000000000000001,
+                    0x00000000000D6D80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO4_D",
+                    0x0000000000000001,
+                    0x0000000000124F80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000040,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000040,
+                },
+            },
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO4_D",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_D",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy1_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi1phytimer_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000000,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy1_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy1_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy1_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy1_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy1_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi1phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi1phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi1phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi1phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi1phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+    },
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000002,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000030,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi2phytimer_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000001,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy2_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000000,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_B",
+                    0x0000000000000001,
+                    0x00000000000D6D80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO3_B",
+                    0x0000000000000001,
+                    0x0000000000124F80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000040,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000040,
+                },
+            },
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO3_B",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_B",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy2_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi2phytimer_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000000,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy2_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy2_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy2_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy2_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy2_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi2phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi2phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi2phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi2phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi2phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+    },
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000003,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000030,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi3phytimer_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000001,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy3_clk",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000000,
+                    0x0000000000000004,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_B",
+                    0x0000000000000001,
+                    0x00000000000D6D80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO3_B",
+                    0x0000000000000001,
+                    0x0000000000124F80,
+                    0x0000000000000001,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000040,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000040,
+                },
+            },
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mxa",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_cx",
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO3_B",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "PMICVREGVOTE",
+                Package ()
+                {
+                    "PPP_RESOURCE_ID_LDO6_B",
+                    0x0000000000000001,
+                    0x0000000000000000,
+                    0x0000000000000000,
+                    0x0000000000000007,
+                    0x0000000000000000,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csiphy3_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_csi3phytimer_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_cpas_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_camnoc_axi_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "FOOTSWITCH",
+                Package ()
+                {
+                    "cam_cc_titan_top_gdsc",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "cam_cc_gdsc_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_ahb_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "CLOCK",
+                Package ()
+                {
+                    "gcc_camera_xo_clk",
+                    0x0000000000000002,
+                },
+            },
+            Package ()
+            {
+                "NPARESOURCE",
+                Package ()
+                {
+                    0x0000000000000001,
+                    "/arc/client/rail_mmcx",
+                    0x0000000000000000,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy3_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy3_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy3_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy3_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csiphy3_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi3phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi3phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi3phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi3phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "cam_cc_csi3phytimer_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+            },
+        },
+    },
+},
