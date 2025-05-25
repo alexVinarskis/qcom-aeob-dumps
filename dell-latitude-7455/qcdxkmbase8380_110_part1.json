@@ -1,0 +1,561 @@
+0x0000000000000003,
+0x0000000000000002,
+0x0000000000480016,
+Package ()
+{
+    "ENGINES",
+    0x0000000000000006,
+    Package ()
+    {
+        "ENGINE",
+        "GRAPHICS",
+        "Adreno7X",
+        0x0000000000000001,
+        0x0000000000000001,
+        0x0000000000000000,
+        Package ()
+        {
+            "MMUINFO",
+            "Miniport",
+            "ArmSmmuV2",
+            0x0000000000000002,
+            0x0000000000000031,
+            "V8L",
+            "SMMUID",
+            Buffer (0x0010) { 0x12, 0xC7, 0x33, 0x98, 0x92, 0x32, 0xFB, 0x4F, 0xB0, 0xF4, 0x2B, 0xD2, 0x0E, 0x1F, 0x7F, 0x66 },
+            "SMMUINTERFACEID",
+            Buffer (0x0010) { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 },
+            Package ()
+            {
+                "PAGETABLEUSAGE",
+                0x0000000000000004,
+                "GraphicsGlobalPT",
+                0x0000000000000000,
+                0x0000000003030000,
+                0x0000000000000001,
+                0x0000000003030020,
+                "GraphicsPerProcessPT",
+                0x0000000000000000,
+                0x0000000003030000,
+                0x0000000000000001,
+                0x0000000003030020,
+                "GraphicsSecurePT",
+                0x0000000000000005,
+                0x00000000030A0000,
+                "GraphicsGmuPT",
+                0x0000000000000003,
+                0x0000000003030060,
+            },
+        },
+        Package ()
+        {
+            "PERF_CONTROLS",
+            Package ()
+            {
+                0x0000000000000002,
+            },
+            Package ()
+            {
+                0x0000000000000003,
+                Package ()
+                {
+                    "LimitForPassiveCooling",
+                    0x0000000000000001,
+                },
+                Package ()
+                {
+                    "PwrBdgtCapIdx",
+                    0x0000000000000008,
+                },
+            },
+            Package ()
+            {
+                0x0000000000000004,
+                Package ()
+                {
+                    "LimitForPassiveCooling",
+                    0x0000000000000001,
+                },
+            },
+        },
+        Package ()
+        {
+            "THERMAL_DOMAINS",
+            "GPU",
+        },
+        Package ()
+        {
+            "PROPERTIES",
+            0x0000000000000006,
+            Package ()
+            {
+                "GmemBaseAddr",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "GmemSize",
+                0x0000000000300000,
+            },
+            Package ()
+            {
+                "GmemAlignInBytes",
+                0x0000000001000000,
+            },
+            Package ()
+            {
+                "SMMUCount",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "UcheTrapBaseLo",
+                0x00000000FFFFF000,
+            },
+            Package ()
+            {
+                "UcheTrapBaseHi",
+                0x000000000001FFFF,
+            },
+        },
+    },
+    Package ()
+    {
+        "ENGINE",
+        "MDPBLT",
+        "MDP5.x",
+        0x0000000000000002,
+        0x0000000000000001,
+        0x0000000000000000,
+        Package ()
+        {
+            "MMUINFO",
+            "Miniport",
+            "ArmSmmuV2",
+            0x0000000000000002,
+            0x0000000000000020,
+            "V8L",
+            "SMMUID",
+            Buffer (0x0010) { 0xE4, 0x9A, 0x07, 0x36, 0xE8, 0x78, 0x2D, 0x45, 0xAF, 0x50, 0x0C, 0xFF, 0x78, 0xB2, 0xF1, 0xCA },
+            "SMMUINTERFACEID",
+            Buffer (0x0010) { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 },
+            Package ()
+            {
+                "PAGETABLEUSAGE",
+                0x0000000000000002,
+                "MdpNonSecurePT",
+                "MdpSecurePT",
+            },
+        },
+        Package ()
+        {
+            "PERF_CONTROLS",
+            Package ()
+            {
+                0x0000000000000002,
+                Package ()
+                {
+                    "LimitForPassiveCooling",
+                    0x0000000000000001,
+                },
+            },
+            Package ()
+            {
+                0x0000000000000003,
+                Package ()
+                {
+                    "LimitForPassiveCooling",
+                    0x0000000000000001,
+                },
+            },
+        },
+        Package ()
+        {
+            "THERMAL_DOMAINS",
+            "GPU",
+        },
+    },
+    Package ()
+    {
+        "ENGINE",
+        "VIDEO",
+        "Iris3",
+        0x0000000000000003,
+        0x0000000000000001,
+        0x0000000000000000,
+        Package ()
+        {
+            "MMUINFO",
+            "Engine",
+            "ArmSmmuV2",
+            0x0000000000000002,
+            0x0000000000000020,
+            "V8L",
+            "SMMUID",
+            Buffer (0x0010) { 0x8E, 0x0F, 0x5E, 0x66, 0xD3, 0xAD, 0xD1, 0x49, 0x91, 0xBC, 0x55, 0x40, 0xC5, 0xF5, 0x7F, 0xBA },
+            "SMMUINTERFACEID",
+            Buffer (0x0010) { 0xE8, 0xC0, 0x3F, 0x1C, 0x11, 0x0B, 0xE0, 0x4E, 0xBE, 0x89, 0x3E, 0x21, 0x42, 0x0A, 0x86, 0x5F },
+            Package ()
+            {
+                "PAGETABLEUSAGE",
+                0x0000000000000005,
+                "VideoNonSecurePT",
+                "VideoSecurePT1",
+                "VideoSecurePT2",
+                "VideoSecurePT3",
+                "VideoSecurePT4",
+            },
+        },
+        Package ()
+        {
+            "PERF_CONTROLS",
+            Package ()
+            {
+                0x0000000000000002,
+            },
+            Package ()
+            {
+                0x0000000000000003,
+            },
+            Package ()
+            {
+                0x0000000000000004,
+            },
+            Package ()
+            {
+                0x0000000000000005,
+            },
+        },
+        Package ()
+        {
+            "THERMAL_DOMAINS",
+        },
+        Package ()
+        {
+            "PROPERTIES",
+            0x0000000000000001,
+            Package ()
+            {
+                "DecMaxFps",
+                0x000000000000003C,
+            },
+        },
+    },
+    Package ()
+    {
+        "ENGINE",
+        "LPAC",
+        "Adreno7X",
+        0x0000000000000006,
+        0x0000000000000001,
+        0x0000000000000000,
+        Package ()
+        {
+            "SHAREDSMMU",
+            "GRAPHICS",
+        },
+        Package ()
+        {
+            "PERF_CONTROLS",
+        },
+        Package ()
+        {
+            "THERMAL_DOMAINS",
+        },
+        Package ()
+        {
+            "PROPERTIES",
+            0x0000000000000001,
+            Package ()
+            {
+                "ProviderEngine",
+                0x0000000000000001,
+            },
+        },
+    },
+    Package ()
+    {
+        "ENGINE",
+        "CRYPTO",
+        "Crypto1.0",
+        0x0000000000000005,
+        0x0000000000000001,
+        0x0000000000000000,
+        Package ()
+        {
+            "MMUINFO",
+            "Miniport",
+            "ArmSmmuV2",
+            0x0000000000000002,
+            0x0000000000000020,
+            "V8L",
+            "SMMUID",
+            Buffer (0x0010) { 0xE4, 0x9A, 0x07, 0x36, 0xE8, 0x78, 0x2D, 0x45, 0xAF, 0x50, 0x0C, 0xFF, 0x78, 0xB2, 0xF1, 0xCA },
+            "SMMUINTERFACEID",
+            Buffer (0x0010) { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 },
+            Package ()
+            {
+                "PAGETABLEUSAGE",
+                0x0000000000000002,
+                "CryptoNonSecurePT",
+                "CryptoSecurePT",
+            },
+        },
+        Package ()
+        {
+            "PERF_CONTROLS",
+            Package ()
+            {
+                0x0000000000000002,
+            },
+        },
+        Package ()
+        {
+            "THERMAL_DOMAINS",
+        },
+    },
+    Package ()
+    {
+        "ENGINE",
+        "VIDEO2",
+        "AV1E",
+        0x0000000000000004,
+        0x0000000000000001,
+        0x0000000000000000,
+        Package ()
+        {
+            "MMUINFO",
+            "Engine",
+            "ArmSmmuV2",
+            0x0000000000000002,
+            0x0000000000000020,
+            "V8L",
+            "SMMUID",
+            Buffer (0x0010) { 0xE4, 0x9A, 0x07, 0x36, 0xE8, 0x78, 0x2D, 0x45, 0xAF, 0x50, 0x0C, 0xFF, 0x78, 0xB2, 0xF1, 0xCA },
+            "SMMUINTERFACEID",
+            Buffer (0x0010) { 0xA6, 0xB2, 0xDD, 0xB7, 0x10, 0x7C, 0x29, 0x41, 0x81, 0xCC, 0x4B, 0xC5, 0x2B, 0x48, 0xED, 0x95 },
+            Package ()
+            {
+                "PAGETABLEUSAGE",
+                0x0000000000000004,
+                "Video2NonSecurePT",
+                "Video2SecurePT1",
+                "Video2SecurePT2",
+                "Video2SecurePT3",
+            },
+        },
+        Package ()
+        {
+            "PERF_CONTROLS",
+            Package ()
+            {
+                0x0000000000000002,
+            },
+            Package ()
+            {
+                0x0000000000000003,
+            },
+            Package ()
+            {
+                0x0000000000000004,
+            },
+        },
+        Package ()
+        {
+            "THERMAL_DOMAINS",
+        },
+    },
+},
+Package ()
+{
+    "PAGETABLES",
+    0x0000000000000011,
+    Package ()
+    {
+        "GraphicsGlobalPT",
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000001,
+        0x0000800000000000,
+        0x0000080000000000,
+    },
+    Package ()
+    {
+        "GraphicsPerProcessPT",
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000002000000,
+        0x00007FFFFE000000,
+    },
+    Package ()
+    {
+        "GraphicsSecurePT",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000001,
+        0x0000000000000001,
+        0x0000800000000000,
+        0x00000A0000000000,
+    },
+    Package ()
+    {
+        "GraphicsGmuPT",
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000080000000,
+    },
+    Package ()
+    {
+        "MdpNonSecurePT",
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000100000,
+        0x00000000FFF00000,
+    },
+    Package ()
+    {
+        "MdpSecurePT",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000200000,
+        0x00000000FFE00000,
+    },
+    Package ()
+    {
+        "VideoNonSecurePT",
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000100000,
+        0x00000000BFF00000,
+        0x000000000000001B,
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "VideoSecurePT1",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x00000000C0000000,
+        0x0000000010000000,
+        0x0000000000000009,
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "VideoSecurePT2",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x00000000D0000000,
+        0x0000000010000000,
+        0x0000000000000007,
+        0x0000000000000002,
+    },
+    Package ()
+    {
+        "VideoSecurePT3",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x00000000E0000000,
+        0x0000000010000000,
+        0x0000000000000002,
+        0x0000000000000003,
+    },
+    Package ()
+    {
+        "VideoSecurePT4",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x00000000F0000000,
+        0x0000000010000000,
+        0x000000000000002A,
+        0x0000000000000004,
+    },
+    Package ()
+    {
+        "CryptoNonSecurePT",
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000100000,
+        0x000000007FF00000,
+    },
+    Package ()
+    {
+        "CryptoSecurePT",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000080000000,
+        0x0000000080000000,
+    },
+    Package ()
+    {
+        "Video2NonSecurePT",
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000025800000,
+        0x00000000BA800000,
+        0x000000000000002F,
+        0x000000001B030000,
+    },
+    Package ()
+    {
+        "Video2SecurePT1",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000800000,
+        0x00000000DF800000,
+        0x0000000000000030,
+        0x000000001B090000,
+    },
+    Package ()
+    {
+        "Video2SecurePT2",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000800000,
+        0x00000000DF800000,
+        0x0000000000000031,
+        0x000000001B0A0000,
+    },
+    Package ()
+    {
+        "Video2SecurePT3",
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000000000000,
+        0x0000000000000001,
+        0x0000000001000000,
+        0x0000000024800000,
+        0x0000000000000032,
+        0x000000001B0B0000,
+    },
+},

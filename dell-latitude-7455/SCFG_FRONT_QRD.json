@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.ov02e10.bin",
+    "com.qti.tuned.ov02e10_CHI.bin",
+    0x0000000000010020,
+    0x0000000045020000,
+    0x0000000000000000,
+},
