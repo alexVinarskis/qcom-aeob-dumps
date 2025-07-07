@@ -1,0 +1,5135 @@
+Package ()
+{
+    "DEVICE",
+    0x0000000000000082,
+    "\_SB.GPU0",
+    Package ()
+    {
+        "COMPONENT",
+        0x000000000000000C,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "ENTER",
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "disp_cc_mdss_core_gdsc",
+                        0x0000000000000002,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_2_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x000000000000000A,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        0x0000000000000031,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000005,
+                        0x0000000000000004,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000006,
+                        0x0000000000000007,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000007,
+                        0x0000000000000004,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_rscc_vsync_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb3_tert_phy_pipe_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb30_tert_sleep_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb3_tert_phy_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb3_tert_phy_com_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_disp_hf_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_disp_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_disp_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_edp_clkref_en",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_D",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_D",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_I",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO8_B",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_C",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_C",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "TLMMGPIO_V2",
+                    0x0000000000000002,
+                    Package ()
+                    {
+                        0x000000000000007E,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_CLK6_A",
+                        0x0000000000000006,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "EXIT",
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000040,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x00000000023C3460,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_disp_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_disp_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_edp_clkref_en",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "disp_cc_mdss_core_gdsc",
+                        0x0000000000000001,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_2_phy_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000002FAF0800,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_disp_hf_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb3_tert_phy_pipe_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb30_tert_sleep_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb3_tert_phy_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_usb3_tert_phy_com_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_rscc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_rscc_vsync_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_vsync_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000005,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_J",
+                        0x0000000000000001,
+                        0x0000000000132A40,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_D",
+                        0x0000000000000001,
+                        0x00000000001B7740,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_D",
+                        0x0000000000000001,
+                        0x00000000000DEA80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_J",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_I",
+                        0x0000000000000001,
+                        0x00000000001B7740,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO8_B",
+                        0x0000000000000001,
+                        0x00000000002EE000,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_C",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_C",
+                        0x0000000000000001,
+                        0x0000000000124F80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "TLMMGPIO_V2",
+                    0x0000000000000001,
+                    Package ()
+                    {
+                        0x000000000000007E,
+                        0x0000000000000000,
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_CLK6_A",
+                        0x0000000000000006,
+                        0x0000000000000001,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "INIT_FSTATE",
+            0x0000000000000001,
+        },
+        Package ()
+        {
+            "PRELOAD_FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "ABANDON_FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "disp_cc_mdss_core_gdsc",
+                        0x0000000000000001,
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "disp_cc_mdss_core_gdsc",
+                        0x0000000000000002,
+                        0x0000000000000001,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000002,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000002245CDC0,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x00000000047868C0,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000001EA30480,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x00000000047868C0,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x00000000165A0BC0,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x00000000023C3460,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x00000000135F1B40,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x00000000023C3460,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000000BEBC200,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x00000000023C3460,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000005,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000000A408300,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x000000000124F800,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000006,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000008F0D180,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x000000000124F800,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000007,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000005F5E100,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x000000000124F800,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000008,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x00000000051BD4B0,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x000000000124F800,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000009,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x000000000124F800,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000A,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_mdp_clk",
+                        0x0000000000000003,
+                        0x0000000000000000,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_DISPLAY_CFG",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000003,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000003B538CB20,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000003B538CB20,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000039D614720,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000039D614720,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000038589C320,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000038589C320,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000036DB23F20,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000036DB23F20,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000355DABB20,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000355DABB20,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000005,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000033E033720,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000033E033720,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000006,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000003262BB320,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000003262BB320,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000007,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000030E542F20,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000030E542F20,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000008,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000002F67CAB20,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000002F67CAB20,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000009,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000002DEA52720,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000002DEA52720,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000A,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000002C6CDA320,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000002C6CDA320,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000B,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000002AEF61F20,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000002AEF61F20,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000C,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000002971E9B20,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000002971E9B20,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000D,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000027F471720,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000027F471720,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000E,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000002676F9320,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000002676F9320,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000F,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000025B8E7F80,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000025B8E7F80,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000010,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000023C346000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000023C346000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000011,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000002245CDC00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000002245CDC00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000012,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000020C855800,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000020C855800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000013,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000001F4ADD400,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000001F4ADD400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000014,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000001DCD65000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000001DCD65000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000015,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000001C4FECC00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000001C4FECC00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000016,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000001AD274800,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000001AD274800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000017,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000001954FC400,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000001954FC400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000018,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000017D784000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000017D784000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000019,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000165A0BC00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000165A0BC00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001A,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000014DC93800,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000014DC93800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001B,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000135F1B400,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000135F1B400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001C,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000011E1A3000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000011E1A3000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001D,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000010642AC00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000010642AC00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001E,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000000EE6B2800,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000000EE6B2800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001F,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000000D693A400,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000000D693A400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000020,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000000BEBC2000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000000BEBC2000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000021,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x00000000A6E49C00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x00000000A6E49C00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000022,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000008F0D1800,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000008F0D1800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000023,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000077359400,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000077359400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000024,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000005F5E1000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000005F5E1000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000025,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000059682F00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000059682F00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000026,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000053724E00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000053724E00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000027,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000004D7C6D00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000004D7C6D00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000028,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000047868C00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000047868C00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000029,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000004190AB00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000004190AB00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000002A,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000003B9ACA00,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000003B9ACA00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000002B,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000035A4E900,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000035A4E900,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000002C,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000002FAF0800,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000002FAF0800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000002D,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000029B92700,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000029B92700,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000002E,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000023C34600,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000023C34600,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000002F,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x000000001DCD6500,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x000000001DCD6500,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000030,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000017D78400,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000017D78400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000031,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000023,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000023,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000023,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000004,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000035A4E900,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MDP",
+                        "ICBID_SLAVE_MNOC_HF_MEM_NOC",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_MNOC_HF_MEM_NOC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000005,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_1_clkref_en",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_2_clkref_en",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_1_clkref_en",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_2_clkref_en",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_1_clkref_en",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_2_clkref_en",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_1_clkref_en",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_2_clkref_en",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_aux_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_1_clkref_en",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "tcsr_usb4_2_clkref_en",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_link_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel0_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000003,
+                        0x000000000124F800,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_pixel1_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_aux_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000006,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_usb_router_link_intf_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_usb_router_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_usb_router_link_intf_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_usb_router_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_usb_router_link_intf_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_usb_router_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_usb_router_link_intf_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_usb_router_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_usb_router_link_intf_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_usb_router_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_usb_router_link_intf_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_usb_router_link_intf_clk",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_usb_router_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_usb_router_link_intf_clk",
+                        0x000000000000000E,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000005,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_usb_router_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_usb_router_link_intf_clk",
+                        0x000000000000000E,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000006,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_usb_router_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_usb_router_link_intf_clk",
+                        0x000000000000000E,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000007,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx0_usb_router_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx1_usb_router_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "disp_cc_mdss_dptx2_usb_router_link_intf_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000007,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000007,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000007,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000007,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_C",
+                        0x0000000000000001,
+                        0x0000000000124F80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_D",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_J",
+                        0x0000000000000001,
+                        0x00000000000DEA80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_C",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_D",
+                        0x0000000000000001,
+                        0x00000000000DEA80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_J",
+                        0x0000000000000001,
+                        0x0000000000132A40,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_J",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_0_phy_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_1_phy_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_2_phy_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_D",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_J",
+                        0x0000000000000001,
+                        0x00000000000DEA80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_J",
+                        0x0000000000000001,
+                        0x0000000000132A40,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_D",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_C",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_C",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_0_phy_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_2_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_1_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_D",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_C",
+                        0x0000000000000001,
+                        0x0000000000124F80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_C",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_D",
+                        0x0000000000000001,
+                        0x00000000000DEA80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_J",
+                        0x0000000000000001,
+                        0x0000000000132A40,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_J",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_1_phy_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_2_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_0_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_C",
+                        0x0000000000000001,
+                        0x0000000000124F80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_C",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_D",
+                        0x0000000000000001,
+                        0x00000000000DEA80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_J",
+                        0x0000000000000001,
+                        0x0000000000132A40,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_J",
+                        0x0000000000000001,
+                        0x00000000000D6D80,
+                        0x0000000000000001,
+                        0x0000000000000007,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_D",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_2_phy_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_1_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_0_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO3_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_D",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO2_C",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_J",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_D",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "PMICVREGVOTE",
+                    Package ()
+                    {
+                        "PPP_RESOURCE_ID_LDO1_C",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        0x0000000000000000,
+                        "HLOS_DRV",
+                        "REQUIRED",
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_2_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_1_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gcc_usb_0_phy_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+    },
+},
