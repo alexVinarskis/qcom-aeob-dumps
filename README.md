@@ -36,4 +36,4 @@ Get-ChildItem -Path $inputFolder -Filter "*.bin" | ForEach-Object {
 
 Command above will fail on non-support files and simply continue the loop.
 
-1. PRs to this repo are appreaciated.
+1. PRs to this repo are appreaciated. Please do NOT submit binary files `.bin`, but only decompiled `.json`.
