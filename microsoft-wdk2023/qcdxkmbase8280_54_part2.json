@@ -1,0 +1,326 @@
+Package ()
+{
+    "DEVICE",
+    0x0000000000000082,
+    "\_SB.GPU0",
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000001,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+            Package ()
+            {
+                "ENTER",
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gpu_cc_cxo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_ddrss_gpu_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_gpu_memnoc_gfx_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gpu_cc_hub_cx_int_clk",
+                        0x0000000000000008,
+                        0x000000000BEBC200,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gpu_cc_cx_gmu_clk",
+                        0x0000000000000008,
+                        0x000000000BEBC200,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_GFX3D",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000001,
+                        0x0000000000000000,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "ENTER",
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_GFX3D",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gpu_cc_cx_gmu_clk",
+                        0x000000000000000C,
+                        0x0000000000000000,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gpu_cc_hub_cx_int_clk",
+                        0x000000000000000C,
+                        0x0000000000000000,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_gpu_memnoc_gfx_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_ddrss_gpu_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gpu_cc_cxo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x0000000000000002,
+                    },
+                },
+            },
+        },
+        Package ()
+        {
+            "INIT_FSTATE",
+            0x0000000000000001,
+        },
+        Package ()
+        {
+            "PRELOAD_FSTATE",
+            0x0000000000000001,
+        },
+        Package ()
+        {
+            "ABANDON_FSTATE",
+            0x0000000000000001,
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "DELAY",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000001,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000002,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gpu_cc_cx_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "gpu_cc_cx_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+    },
+},
