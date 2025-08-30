@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.akerr_ov2740.bin",
+    "com.qti.tuned.akerr_ov2740.bin",
+    0x000000000016006C,
+    0x000000002740300B,
+    0x0000000000000000,
+},

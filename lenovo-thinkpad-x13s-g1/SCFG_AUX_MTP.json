@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.liteon_ov7251.bin",
+    "com.qti.tuned.liteon_ov7251.bin",
+    0x00000000001500C0,
+    0x000000007750300A,
+    0x0000000000000000,
+},

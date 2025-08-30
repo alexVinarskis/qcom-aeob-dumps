@@ -1,0 +1,111 @@
+Package ()
+{
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC00000,
+        0x0000000000020000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC48000,
+        0x0000000000000200,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC48200,
+        0x0000000000000200,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC48400,
+        0x0000000000000200,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC48600,
+        0x0000000000000200,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC48800,
+        0x0000000000000200,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC6B000,
+        0x0000000000001000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC6F000,
+        0x0000000000008000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC87000,
+        0x000000000000A000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000AC91000,
+        0x000000000000A000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000ACC4000,
+        0x0000000000005000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000ACCB000,
+        0x0000000000005000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000ACD2000,
+        0x0000000000005000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000ACD9000,
+        0x0000000000005000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x0000000085200000,
+        0x0000000000500000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000ACAF000,
+        0x0000000000005000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000ACB6000,
+        0x0000000000005000,
+    },
+    Package ()
+    {
+        "ReadWrite",
+        0x000000000ACBD000,
+        0x0000000000005000,
+    },
+},
