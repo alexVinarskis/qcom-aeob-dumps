@@ -1,0 +1,209 @@
+Package ()
+{
+    "ForceMaxPerf",
+    0x0000000000000000,
+},
+Package ()
+{
+    "ForceStablePowerSettings",
+    0x0000000000000000,
+},
+Package ()
+{
+    "ForceActive",
+    0x0000000000000000,
+},
+Package ()
+{
+    "DeferForceActive",
+    0x0000000000000000,
+},
+Package ()
+{
+    "PreventPowerCollapse",
+    0x0000000000000000,
+},
+Package ()
+{
+    "DisableThermalMitigation",
+    0x0000000000000000,
+},
+Package ()
+{
+    "OPMApiVersion",
+    0x0000000000000002,
+},
+Package ()
+{
+    "DisableCDI",
+    0x0000000000000000,
+},
+Package ()
+{
+    "MaxPreemptionOffsets",
+    0x0000000000000080,
+},
+Package ()
+{
+    "MaxRequiredDmaQueueEntry",
+    0x0000000000000008,
+},
+Package ()
+{
+    "SupportsSecureInAperture",
+    0x0000000000000001,
+},
+Package ()
+{
+    "ZeroFlagSupportInPTE",
+    0x0000000000000001,
+},
+Package ()
+{
+    "SupportsCacheCoherency",
+    0x0000000000000001,
+},
+Package ()
+{
+    "SupportsSHMBridge",
+    0x0000000000000001,
+},
+Package ()
+{
+    "SecureCarveoutSize",
+    0x0000000000200000,
+},
+Package ()
+{
+    "allowDrmAbove1080p",
+    0x0000000000000001,
+},
+Package ()
+{
+    "ZeroPageLowAddr",
+    0x0000000080880000,
+},
+Package ()
+{
+    "ZeroPageHighAddr",
+    0x0000000000000000,
+},
+Package ()
+{
+    "GRAPHICS",
+    Package ()
+    {
+        "EnableSystemCache",
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "EnableSysCacheForGpuhtw",
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "DCVS",
+        Package ()
+        {
+            "Enable",
+            0x0000000000000001,
+        },
+        Package ()
+        {
+            "IncreaseFilterBw",
+            0x0000000000020000,
+        },
+        Package ()
+        {
+            "DecreaseFilterBw",
+            0x0000000000003333,
+        },
+        Package ()
+        {
+            "TargetBusyPct",
+            0x0000000000000055,
+        },
+        Package ()
+        {
+            "SampleRate",
+            0x000000000000003C,
+        },
+        Package ()
+        {
+            "TargetBusyPctOffscreen",
+            0x000000000000004B,
+        },
+        Package ()
+        {
+            "SampleRateOffscreen",
+            0x0000000000000014,
+        },
+        Package ()
+        {
+            "GpuResetValue",
+            0x0000000018701A80,
+        },
+        Package ()
+        {
+            "BusResetValue",
+            0x0000000000000AA6,
+        },
+    },
+    Package ()
+    {
+        "A6x",
+        Package ()
+        {
+            "SleepMode",
+            0x0000000000000003,
+        },
+    },
+},
+Package ()
+{
+    "VIDEO",
+    Package ()
+    {
+        "EnableSystemCache",
+        0x0000000000000001,
+    },
+},
+Package ()
+{
+    "CRYPTO",
+    Package ()
+    {
+        "EnableCryptoVA",
+        0x0000000000000001,
+    },
+},
+Package ()
+{
+    "DISPLAY",
+    Package ()
+    {
+        "DisableMiracast",
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "EnableOEMDriverDependency",
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "EnableBridgeDriverDependency",
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "DisableRotator",
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "DisableMDPBLT",
+        0x0000000000000001,
+    },
+},

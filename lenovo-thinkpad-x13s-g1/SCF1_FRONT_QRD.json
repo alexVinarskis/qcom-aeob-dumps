@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.azurewave_ov5675.bin",
+    "com.qti.tuned.luxvision_ov5675.bin",
+    0x0000000000150020,
+    0x000000005675300B,
+    0x0000000000000000,
+},
