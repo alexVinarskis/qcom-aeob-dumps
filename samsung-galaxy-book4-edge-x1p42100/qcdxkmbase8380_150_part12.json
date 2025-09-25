@@ -1,0 +1,17 @@
+0x0000000000000001,
+0x0000000000000000,
+Package ()
+{
+    "THERMAL_DOMAINS",
+    0x0000000000000001,
+    Package ()
+    {
+        "GPU",
+        "GPU0",
+        Package ()
+        {
+            "GRAPHICS",
+            "MDPBLT",
+        },
+    },
+},

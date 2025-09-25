@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.partron_ov02c10.bin",
+    "com.qti.tuned.default.bin",
+    0x000000000016006C,
+    0x000000005602300A,
+    0x0000000000000000,
+},
