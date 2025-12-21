@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.sunny_imx688.bin",
+    "com.qti.tuned.ofilm_imx688.bin",
+    0x0000000000160034,
+    0x0000000006880016,
+    0x0000000000000000,
+},
