@@ -1,0 +1,2070 @@
+Package ()
+{
+    "DEVICE",
+    0x0000000000000082,
+    "\_SB.GPU0",
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000004,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "ENTER",
+                Package ()
+                {
+                    "PSTATE_SAVE",
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        0x000000000000001D,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x000000000000000C,
+                    },
+                },
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "EXIT",
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000040,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x000000000000000D,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_RESTORE",
+                },
+            },
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000002,
+            Package ()
+            {
+                "ENTER",
+                Package ()
+                {
+                    "PSTATE_SAVE",
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000002,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        0x000000000000001D,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x000000000000000C,
+                    },
+                },
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "EXIT",
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000040,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x000000000000000D,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_RESTORE",
+                },
+            },
+        },
+        Package ()
+        {
+            "INIT_FSTATE",
+            0x0000000000000002,
+        },
+        Package ()
+        {
+            "ABANDON_FSTATE",
+            0x0000000000000002,
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000004,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000005,
+                    },
+                },
+                Package ()
+                {
+                    "DELAY",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000006,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x000000000000000A,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000007,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "PSTATE_ADJUST",
+                    Package ()
+                    {
+                        0x0000000000000004,
+                        0x0000000000000008,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000002,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000000BEBC200,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_cc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_cc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000002,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000002,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000002,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000100,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000003,
+                        0x0000000023C34600,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000003,
+                        0x0000000023C34600,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_apb_clk",
+                        0x0000000000000003,
+                        0x0000000023C34600,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_AV1_ENC_CFG",
+                        0x0000000011E1A300,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000080,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_apb_clk",
+                        0x0000000000000003,
+                        0x0000000017D78400,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_AV1_ENC_CFG",
+                        0x0000000008F0D180,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000040,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_apb_clk",
+                        0x0000000000000003,
+                        0x0000000011E1A300,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_AV1_ENC_CFG",
+                        0x00000000042C1D80,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "NPARESOURCE",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                        "/arc/client/rail_mmcx",
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000003,
+                        0x0000000000000000,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000003,
+                        0x0000000000000000,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_apb_clk",
+                        0x0000000000000003,
+                        0x0000000000000000,
+                        0x0000000000000003,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_APPSS_PROC",
+                        "ICBID_SLAVE_AV1_ENC_CFG",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000002,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000003,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000159B4FA00,
+                        0x0000000159B4FA00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000014DC93800,
+                        0x000000014DC93800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000141DD7600,
+                        0x0000000141DD7600,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000135F1B400,
+                        0x0000000135F1B400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000012A05F200,
+                        0x000000012A05F200,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000005,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000011E1A3000,
+                        0x000000011E1A3000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000006,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000001122E6E00,
+                        0x00000001122E6E00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000007,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000010642AC00,
+                        0x000000010642AC00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000008,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000FA56EA00,
+                        0x00000000FA56EA00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000009,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000EE6B2800,
+                        0x00000000EE6B2800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000A,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000E27F6600,
+                        0x00000000E27F6600,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000B,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000D693A400,
+                        0x00000000D693A400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000C,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000CAA7E200,
+                        0x00000000CAA7E200,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000D,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000BEBC2000,
+                        0x00000000BEBC2000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000E,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000B2D05E00,
+                        0x00000000B2D05E00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000F,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x00000000A6E49C00,
+                        0x00000000A6E49C00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000010,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000009AF8DA00,
+                        0x000000009AF8DA00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000011,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000008F0D1800,
+                        0x000000008F0D1800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000012,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000083215600,
+                        0x0000000083215600,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000013,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000077359400,
+                        0x0000000077359400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000014,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000006B49D200,
+                        0x000000006B49D200,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000015,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000005F5E1000,
+                        0x000000005F5E1000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000016,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000053724E00,
+                        0x0000000053724E00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000017,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000047868C00,
+                        0x0000000047868C00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000018,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000003B9ACA00,
+                        0x000000003B9ACA00,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000019,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000002FAF0800,
+                        0x000000002FAF0800,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001A,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000023C34600,
+                        0x0000000023C34600,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001B,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000017D78400,
+                        0x0000000017D78400,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001C,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000000BEBC200,
+                        0x000000000BEBC200,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000001D,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x000000000000001B,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x000000000000001D,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000004,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000004,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000002,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_cc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000003,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000004,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000012,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000014,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000005,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000000BEBC200,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x000000000000000E,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000006,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x000000000000000F,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000007,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000015,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000013,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000008,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000009,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_cc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000A,
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000000BEBC200,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000B,
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000003,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000C,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000012,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000014,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x0000000000000000,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_apb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x000000000000000E,
+                    },
+                },
+                Package ()
+                {
+                    "DELAY",
+                    Package ()
+                    {
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x000000000000000F,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000015,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000009,
+                        0x0000000000000013,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_cc_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_axi_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_ahb_clk",
+                        0x0000000000000002,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_xo_clk",
+                        0x0000000000000002,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000D,
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "gcc_av1e_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_cc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "FOOTSWITCH",
+                    Package ()
+                    {
+                        "av1e_cc_core_gdsc",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "BUSARB",
+                    Package ()
+                    {
+                        0x0000000000000003,
+                        "ICBID_MASTER_AV1_ENC",
+                        "ICBID_SLAVE_EBI1",
+                        0x000000000BEBC200,
+                        0x0000000000000000,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_xo_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_noc_core_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_gdsc_noc_ahb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_apb_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_axi_clk",
+                        0x0000000000000001,
+                    },
+                },
+                Package ()
+                {
+                    "CLOCK",
+                    Package ()
+                    {
+                        "av1e_cc_av1e_core_clk",
+                        0x0000000000000001,
+                    },
+                },
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x000000000000000E,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x000000000000000E,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x000000000000000C,
+            },
+        },
+    },
+},
