@@ -1,0 +1,124 @@
+Package ()
+{
+    "DEVICE",
+    0x0000000000000082,
+    "\_SB.GPU0",
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000005,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+        },
+        Package ()
+        {
+            "INIT_FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "PRELOAD_FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "ABANDON_FSTATE",
+            0x0000000000000000,
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000000,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000001,
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000001,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+        Package ()
+        {
+            "PSTATE_SET",
+            0x0000000000000002,
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PRELOAD_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "PREPARE_PSTATE",
+                0x0000000000000000,
+            },
+            Package ()
+            {
+                "ABANDON_PSTATE",
+                0x0000000000000000,
+            },
+        },
+    },
+},
