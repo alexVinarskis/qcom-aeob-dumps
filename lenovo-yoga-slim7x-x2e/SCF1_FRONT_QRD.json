@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.Shinetech_ov08x.bin",
+    "com.qti.tuned.lvi_ofilm_ov08x.bin",
+    0x0000000000160020,
+    0x000000005608300A,
+    0x0000000000000000,
+},
