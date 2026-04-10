@@ -1,0 +1,8 @@
+Package ()
+{
+    "com.qti.sensormodule.og0va1b.bin",
+    "com.qti.tuned.og0va1b.bin",
+    0x00000000001500C0,
+    0x00000000C756300A,
+    0x0000000000000000,
+},
