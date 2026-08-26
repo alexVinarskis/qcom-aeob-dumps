@@ -1,0 +1,106 @@
+Package ()
+{
+    "DEVICE",
+    "\_SB.QBCC",
+    Package ()
+    {
+        "COMPONENT",
+        0x0000000000000000,
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000000,
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000000,
+                    0x0000000000000000,
+                },
+            },
+        },
+        Package ()
+        {
+            "FSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "PSTATE_ADJUST",
+                Package ()
+                {
+                    0x0000000000000000,
+                    0x0000000000000003,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE",
+            0x0000000000000000,
+            Package ()
+            {
+                "BUSARB",
+                Package ()
+                {
+                    0x0000000000000003,
+                    "ICBID_MASTER_CRYPTO",
+                    "ICBID_SLAVE_EBI1",
+                    0x0000000017D78400,
+                    0x0000000017D78400,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE",
+            0x0000000000000001,
+            Package ()
+            {
+                "BUSARB",
+                Package ()
+                {
+                    0x0000000000000003,
+                    "ICBID_MASTER_CRYPTO",
+                    "ICBID_SLAVE_EBI1",
+                    0x000000000BEBC200,
+                    0x000000000BEBC200,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE",
+            0x0000000000000002,
+            Package ()
+            {
+                "BUSARB",
+                Package ()
+                {
+                    0x0000000000000003,
+                    "ICBID_MASTER_CRYPTO",
+                    "ICBID_SLAVE_EBI1",
+                    0x0000000005F5E100,
+                    0x0000000005F5E100,
+                },
+            },
+        },
+        Package ()
+        {
+            "PSTATE",
+            0x0000000000000003,
+            Package ()
+            {
+                "BUSARB",
+                Package ()
+                {
+                    0x0000000000000003,
+                    "ICBID_MASTER_CRYPTO",
+                    "ICBID_SLAVE_EBI1",
+                    0x0000000000000000,
+                    0x0000000000000000,
+                },
+            },
+        },
+    },
+},
