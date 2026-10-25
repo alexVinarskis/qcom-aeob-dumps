@@ -1,0 +1,178 @@
+Package ()
+{
+    "SupportsSecureInAperture",
+    0x0000000000000001,
+},
+Package ()
+{
+    "ZeroFlagSupportInPTE",
+    0x0000000000000001,
+},
+Package ()
+{
+    "SupportsCacheCoherency",
+    0x0000000000000001,
+},
+Package ()
+{
+    "SecureCarveoutSize",
+    0x0000000000000000,
+},
+Package ()
+{
+    "allowDrmAbove1080p",
+    0x0000000000000001,
+},
+Package ()
+{
+    "ZeroPageLowAddr",
+    0x0000000081F00000,
+},
+Package ()
+{
+    "ZeroPageHighAddr",
+    0x0000000000000000,
+},
+Package ()
+{
+    "GRAPHICS",
+    Package ()
+    {
+        "EnableSystemCache",
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "EnableSysCacheForGpuhtw",
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "DisableLpac",
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "DCVS",
+        Package ()
+        {
+            "IncreaseFilterBw",
+            0x0000000000020000,
+        },
+        Package ()
+        {
+            "DecreaseFilterBw",
+            0x0000000000003333,
+        },
+        Package ()
+        {
+            "TargetBusyPct",
+            0x0000000000000055,
+        },
+        Package ()
+        {
+            "SampleRate",
+            0x000000000000003C,
+        },
+        Package ()
+        {
+            "TargetBusyPctOffscreen",
+            0x000000000000004B,
+        },
+        Package ()
+        {
+            "SampleRateOffscreen",
+            0x0000000000000014,
+        },
+        Package ()
+        {
+            "GpuResetValue",
+            0x0000000018701A80,
+        },
+        Package ()
+        {
+            "BusResetValue",
+            0x0000000000000AA6,
+        },
+    },
+    Package ()
+    {
+        "A7x",
+        Package ()
+        {
+            "Preemption",
+            0x000000000000001A,
+        },
+        Package ()
+        {
+            "EnableDynPwrLog",
+            0x0000000000000001,
+        },
+        Package ()
+        {
+            "EnableLkgPwrLog",
+            0x0000000000000001,
+        },
+    },
+},
+Package ()
+{
+    "VIDEO",
+    Package ()
+    {
+        "DisableVideo",
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "EnableSystemCache",
+        0x0000000000000001,
+    },
+},
+Package ()
+{
+    "VIDEO2",
+    Package ()
+    {
+        "DisableVideo2",
+        0x0000000000000000,
+    },
+},
+Package ()
+{
+    "CRYPTO",
+    Package ()
+    {
+        "EnableCryptoVA",
+        0x0000000000000001,
+    },
+},
+Package ()
+{
+    "DISPLAY",
+    Package ()
+    {
+        "DisableMiracast",
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "EnableOEMDriverDependency",
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "EnableBridgeDriverDependency",
+        0x0000000000000000,
+    },
+    Package ()
+    {
+        "DisableMDPBLT",
+        0x0000000000000001,
+    },
+    Package ()
+    {
+        "DisableExternal",
+        0x000000000000003F,
+    },
+},
